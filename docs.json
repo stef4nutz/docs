@@ -40,7 +40,8 @@
               "antinuke",
               "antiraid",
               "moderation"
-            ]
+            ],
+            "icon": "cog"
           },
           {
             "group": "Server Configuration",
@@ -54,7 +55,8 @@
               "logging",
               "invoke",
               "tickets"
-            ]
+            ],
+            "icon": "code-xml"
           },
           "embeds"
         ]
