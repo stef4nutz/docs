@@ -32,7 +32,8 @@
             "expanded": true,
             "pages": [
               "platform/quickstart",
-              "platform/plus"
+              "platform/plus",
+              "platform/customization"
             ]
           },
           {
