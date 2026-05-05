@@ -2,3 +2,35 @@
 title: "Moderation"
 icon: "hammer"
 ---
+
+Guide to setting up moderation commands in your server.
+
+# Overview
+
+Moderation commands require some basic setup before they can be used. This includes **moderation logs**, **mute roles**, and the **jailed role & channel**.
+
+<Steps>
+  <Step title="Creating the case logs & jail system">
+    <Info>
+      Jail is a feature similar to mute, but it restricts users from all channels except `#jail`.
+    </Info>
+
+    Use the `setup logs` and `setup jail` to create the logs channel and jail system.
+  </Step>
+</Steps>
+
+Upon completion of the setup, you’ll notice a few new roles and channels in your server.
+
+- Jailed - Used to restrcit users from all channels expect the `#jail` channel.
+
+# Invoke Messages
+
+You can customize the response for moderation commands.
+
+The following moderation commands can be customized:
+
+`jail`, `kick`, `ban`, `hardban`, `mute`, `warn` 
+
+<Prompt description="Syntax" actions={["copy"]}>
+$invoke (command) (message)
+</Prompt>
