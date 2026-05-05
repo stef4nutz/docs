@@ -23,47 +23,40 @@
     "tabs": [
       {
         "tab": "Untitled Tab",
-        "products": [
+        "pages": [
           {
-            "product": "Platform",
-            "icon": "layers",
-            "description": "Core platform setup, configuration, and administration.",
+            "group": "Getting started",
+            "icon": "rocket",
+            "expanded": true,
             "pages": [
-              {
-                "group": "Getting started",
-                "icon": "rocket",
-                "expanded": true,
-                "pages": [
-                  "platform/quickstart",
-                  "platform/plus",
-                  "platform/customization"
-                ]
-              },
-              {
-                "group": "Security Setup",
-                "pages": [
-                  "antinuke",
-                  "antiraid",
-                  "moderation"
-                ]
-              },
-              {
-                "group": "Server Configuration",
-                "pages": [
-                  "leveling",
-                  "sticky-messages",
-                  "auto-responder",
-                  "notifications",
-                  "welcomer-goodbye",
-                  "alias",
-                  "logging",
-                  "invoke",
-                  "tickets"
-                ]
-              },
-              "embeds"
+              "platform/quickstart",
+              "platform/plus",
+              "platform/customization"
             ]
-          }
+          },
+          {
+            "group": "Security Setup",
+            "pages": [
+              "antinuke",
+              "antiraid",
+              "moderation"
+            ]
+          },
+          {
+            "group": "Server Configuration",
+            "pages": [
+              "leveling",
+              "sticky-messages",
+              "auto-responder",
+              "notifications",
+              "welcomer-goodbye",
+              "alias",
+              "logging",
+              "invoke",
+              "tickets"
+            ]
+          },
+          "embeds"
         ]
       }
     ]
