@@ -10,12 +10,19 @@ Guide to setting up moderation commands in your server.
 Moderation commands require some basic setup before they can be used. This includes **moderation logs**, **mute roles**, and the **jailed role & channel**.
 
 <Steps>
-  <Step title="Creating the case logs & jail system">
+  <Step title="Jail system">
     <Info>
       Jail is a feature similar to mute, but it restricts users from all channels except `#jail`.
     </Info>
 
-    Use the `setup logs` and `setup jail` to create the logs channel and jail system.
+    Use the`setup jail` to active and create the jail system.
+  </Step>
+  <Step title="Logging">
+    <Info>
+      Logs must be set in order for the cases and `modlogs` to work. You can do it by using `setup logs #channel` if you already have an logging channel.
+    </Info>
+
+    Use the `setup logs` if you don't have a logging channel or `setup logs #channel` if you already have a logging channel. Both ways work.
   </Step>
 </Steps>
 
@@ -35,6 +42,6 @@ The following moderation commands can be customized:
   The `message` parameter can be raw text or an embed.
 </Tip>
 
-<Prompt description="Syntax" actions={["copy"]}>
+<Prompt description="Syntax" actions={[]}>
 $invoke (command) (message)
 </Prompt>
