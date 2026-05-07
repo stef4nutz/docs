@@ -2,3 +2,60 @@
 title: "Leveling"
 icon: "arrow-big-up"
 ---
+
+Reward activity with XP, ranks, and automatic role rewards.
+
+## **Getting started**
+
+Before you run any commands, activate the feature by using `levels enable`. This way the bot will start tracking the messages safely and exchange an chosen amount to an level which rewards the user with a role.
+
+## **Ignoring channels and roles**
+
+You should immediately ignore channels that you don’t want gaining XP. You can do this by using the `levels ignore` command.
+
+<Prompt description="levels ignore #channel" actions={["copy"]}>
+</Prompt>
+
+<Tip>
+  If you no longer want to ignore a channel or role, you can re-run the command. You can also use `levels list` to view all ignored channels and roles.
+</Tip>
+
+## **Setting up roles to reward**
+
+You can reward your members with roles when they reach a certain level. You can use the `levels add` command to add a level reward.
+
+<Info>
+  In order to remove a role from rewarding, you must use the dashboard
+</Info>
+
+<Prompt description="levels add (level) (role)" actions={["copy"]}>
+</Prompt>
+
+## **Customizing level-up messages**
+
+With kills you can customize the level-up messages, currently not entirely but soon it will be.
+
+<Info>
+  The `message` parameter can be raw text or an dynamic embed
+</Info>
+
+<Prompt description="levels message (message)" actions={["copy"]}>
+</Prompt>
+
+## **Changing a member’s level**
+
+You can change a member’s level to a specific level or set their XP to a specific amount.
+
+<Prompt description="levels setlevel" actions={["copy"]}>
+</Prompt>
+
+## **Changing the XP multiplier**
+
+You can change the XP multiplier to increase or decrease the amount of XP members receive.
+
+<Prompt description="levels rate (rate)" actions={["copy"]}>
+</Prompt>
+
+<Info>
+  The dashboard has more customization options for leveling. We recommend using that.
+</Info>
